@@ -15,7 +15,7 @@ mysql> create user 'testuser'@'%' identified by 'testpassword'; Query OK, 0 rows
 
 mysql> grant all on userservice.* to 'testuser'@'%'; Query OK, 0 rows affected (0.01 sec)
 
-#application.properties config
+# application.properties config
 spring.datasource.url=jdbc:mysql://${MYSQL_HOST:localhost}:3306/userservice
 spring.datasource.username=testuser
 spring.datasource.password=testpassword
