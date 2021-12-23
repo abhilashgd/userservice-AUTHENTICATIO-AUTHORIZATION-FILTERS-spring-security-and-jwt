@@ -8,9 +8,18 @@ bc07fb86ac15a3445d2b5d78f0e090f40633e0c5d94642fc5b075525fd31584c abhilashgd@abhi
 
 docker exec -it bc07fb86ac15a3445d2b5d78f0e090f40633e0c5d94642fc5b075525fd31584c /bin/sh abhilashgd@abhilashs-Air ~ % docker exec -it bc07fb86ac15a3445d2b5d78f0e090f40633e0c5d94642fc5b075525fd31584c /bin/sh
 
-#mysql -uroot -pletmein
+# mysql -uroot -pletmein
 mysql> create database userservice; Query OK, 1 row affected (0.03 sec)
 
 mysql> create user 'testuser'@'%' identified by 'testpassword'; Query OK, 0 rows affected (0.03 sec)
 
 mysql> grant all on userservice.* to 'testuser'@'%'; Query OK, 0 rows affected (0.01 sec)
+
+#application.properties config
+spring.datasource.url=jdbc:mysql://${MYSQL_HOST:localhost}:3306/userservice
+spring.datasource.username=testuser
+spring.datasource.password=testpassword
+spring.jpa.hibernate.ddl-auto=update
+spring.jpa.show-sql=true
+spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MySQL8Dialect
+spring.jpa.properties.hibernate.format_sql=true
