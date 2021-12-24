@@ -57,3 +57,7 @@ https://mvnrepository.com/artifact/com.auth0/java-jwt
 			<artifactId>java-jwt</artifactId>
 			<version>3.18.2</version>
 		</dependency>
+
+Notes: 	Drop all Tables from mysql database before relaunching application after jwt implementation.
+	Otherwise, CommandLineRunner will create dumplicate data causing  clashes
+	Drop table user_roles; drop table user; drop table role; drop table; hibernate_sequence; and relaunch
