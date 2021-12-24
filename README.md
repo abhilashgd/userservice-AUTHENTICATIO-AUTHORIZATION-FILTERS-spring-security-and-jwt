@@ -60,7 +60,7 @@ https://mvnrepository.com/artifact/com.auth0/java-jwt
 
 Notes: 	Drop all Tables from mysql database before relaunching application after jwt implementation.
 	Otherwise, CommandLineRunner will create dumplicate data causing  clashes
-	Drop table user_roles; drop table user; drop table role; drop table; hibernate_sequence; and relaunch
+	Drop table user_roles,role,user,hibernate_sequence; and relaunch
 	
 #Postman: POST:http://localhost:8080/login
 		Body: x-www-form-urlencoded
