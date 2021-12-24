@@ -67,6 +67,12 @@ Notes: 	Drop all Tables from mysql database before relaunching application after
 		key: username 	value: abhilashgd
 		key: password	value: 1234
 		
+		GET:http://localhost:8080/api/users //to fetch all users
+		GET:http://localhost:8080/api/token/refresh //to refresh token
+		Header: 
+		Key: Authorization
+		value: Bearer {JWT TOKEN}
+		
 		Response: 200 status ok. access_token and refresh_token must be present in the header
 		
 		Website to check tokens: https://jwt.io/
