@@ -1,0 +1,12 @@
+/Users/abhilashgd/Documents/for_git_push/userservice-spring-security-and-jwt/src/main/java/io/gateways/userservice/api/UserResource.java
+/Users/abhilashgd/Documents/for_git_push/userservice-spring-security-and-jwt/src/main/java/io/gateways/userservice/security/SecurityConfig.java
+/Users/abhilashgd/Documents/for_git_push/userservice-spring-security-and-jwt/src/main/java/io/gateways/userservice/UserserviceApplication.java
+/Users/abhilashgd/Documents/for_git_push/userservice-spring-security-and-jwt/src/main/java/io/gateways/userservice/filter/CustomAuthenticationFilter.java
+/Users/abhilashgd/Documents/for_git_push/userservice-spring-security-and-jwt/src/main/java/io/gateways/userservice/service/UserServiceImpl.java
+/Users/abhilashgd/Documents/for_git_push/userservice-spring-security-and-jwt/src/main/java/io/gateways/userservice/utilities/AlgorithmHMAC265.java
+/Users/abhilashgd/Documents/for_git_push/userservice-spring-security-and-jwt/src/main/java/io/gateways/userservice/service/UserService.java
+/Users/abhilashgd/Documents/for_git_push/userservice-spring-security-and-jwt/src/main/java/io/gateways/userservice/repo/UserRepo.java
+/Users/abhilashgd/Documents/for_git_push/userservice-spring-security-and-jwt/src/main/java/io/gateways/userservice/repo/RoleRepo.java
+/Users/abhilashgd/Documents/for_git_push/userservice-spring-security-and-jwt/src/main/java/io/gateways/userservice/filter/CustomAuthorizationFilter.java
+/Users/abhilashgd/Documents/for_git_push/userservice-spring-security-and-jwt/src/main/java/io/gateways/userservice/domain/User.java
+/Users/abhilashgd/Documents/for_git_push/userservice-spring-security-and-jwt/src/main/java/io/gateways/userservice/domain/Role.java

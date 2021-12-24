@@ -1,7 +1,10 @@
 package io.gateways.userservice.filter;
-
+/*
+ * @author Abhilash GD
+ * @Version 1.0
+ * since 23/12/2021
+ */
 import com.auth0.jwt.JWT;
-import com.auth0.jwt.algorithms.Algorithm;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import static io.gateways.userservice.utilities.AlgorithmHMAC265.algorithm;
 import lombok.extern.slf4j.Slf4j;

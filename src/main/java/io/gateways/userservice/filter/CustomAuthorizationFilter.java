@@ -1,5 +1,9 @@
 package io.gateways.userservice.filter;
-
+/*
+ * @author Abhilash GD
+ * @Version 1.0
+ * since 24/12/2021
+ */
 import com.auth0.jwt.JWT;
 import com.auth0.jwt.JWTVerifier;
 import static io.gateways.userservice.utilities.AlgorithmHMAC265.algorithm;
