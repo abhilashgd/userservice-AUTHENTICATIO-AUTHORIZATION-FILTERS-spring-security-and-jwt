@@ -48,3 +48,12 @@ spring.jpa.hibernate.ddl-auto=update
 spring.jpa.show-sql=true
 spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MySQL8Dialect
 spring.jpa.properties.hibernate.format_sql=true
+
+#JWT AUTHENTICATION DEPENDENCY
+https://mvnrepository.com/artifact/com.auth0/java-jwt
+
+<dependency>
+			<groupId>com.auth0</groupId>
+			<artifactId>java-jwt</artifactId>
+			<version>3.18.2</version>
+		</dependency>
