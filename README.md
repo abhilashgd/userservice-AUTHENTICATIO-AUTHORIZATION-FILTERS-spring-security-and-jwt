@@ -63,6 +63,9 @@ Notes: 	Drop all Tables from mysql database before relaunching application after
 	Otherwise, CommandLineRunner will create dumplicate data causing  clashes
 	Drop table user_roles,role,user,hibernate_sequence; and relaunch
 	
+	alternative - change ddl-auto property to create-drop
+		      spring.jpa.hibernate.ddl-auto=create-drop 
+	
 #Postman: POST:http://localhost:8080/login
 		Body: x-www-form-urlencoded
 		key: username 	value: abhilashgd
