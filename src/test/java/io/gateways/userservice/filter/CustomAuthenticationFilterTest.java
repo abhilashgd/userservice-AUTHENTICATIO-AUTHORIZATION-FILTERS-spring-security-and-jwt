@@ -22,5 +22,17 @@ class CustomAuthenticationFilterTest {
                 .getRememberMeServices() instanceof org.springframework.security.web.authentication.NullRememberMeServices);
         assertEquals("password", actualCustomAuthenticationFilter.getPasswordParameter());
     }
+
+    @Test
+    void testConstructor2() {
+        ArrayList<AuthenticationProvider> authenticationProviderList = new ArrayList<>();
+        authenticationProviderList.add(new RunAsImplAuthenticationProvider());
+        CustomAuthenticationFilter actualCustomAuthenticationFilter = new CustomAuthenticationFilter(
+                new ProviderManager(authenticationProviderList));
+        assertEquals("username", actualCustomAuthenticationFilter.getUsernameParameter());
+        assertTrue(actualCustomAuthenticationFilter
+                .getRememberMeServices() instanceof org.springframework.security.web.authentication.NullRememberMeServices);
+        assertEquals("password", actualCustomAuthenticationFilter.getPasswordParameter());
+    }
 }
 
