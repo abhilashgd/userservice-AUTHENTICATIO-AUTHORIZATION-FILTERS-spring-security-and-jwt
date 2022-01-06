@@ -80,3 +80,4 @@ Notes: 	Drop all Tables from mysql database before relaunching application after
 		Response: 200 status ok. access_token and refresh_token must be present in the header
 		
 		Website to check tokens: https://jwt.io/
+		https://www.mockaroo.com/  //DATA Generator and API Mocking tool
